@@ -27,3 +27,4 @@
 25. `git remote rm <name of remote>`     : This command deletes a remote connection
 26. `git remote rename <oldName> <newname>` : This command renames the remote connection
 27. `git pull <remote name> <branch name>` : Downloads latest changes from the branch of the mentioned remote in your local repo.
+28. `git push -u origin master`           : To push git initialised repo on github
