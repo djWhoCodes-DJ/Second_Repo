@@ -1,0 +1,23 @@
+1. Git: Git is a version control system.
+2. Mercurial is another version control system just like Git.
+3. GitHub: It is a collaboration tool for open sources. GitHub harnesses the power of the version control systems, and build collaboration environment. It is a GUI interface that allows us to do lot of things. And helps us to keep our projects online, over the internet.
+4. GitLab, BitBucket are similar tool to GitHubs.
+
+5. git init : Powers your folder to be managed by git, and initialises a new empty repository. It also creates a .git folder that as all the relevant logic to manage versions of your project.
+
+6. Working Area : There can be a bunch of files, that are currently not handled by git. It means that changes done or to be done in those files are not managed by git yet. A file which is in working area is considered to be in "unstage area". When we do `git status` and we see a bunch of `untracked files` then these are actually called to be in the working area.
+
+7. Staging area : What all files are going to be part of the next version that we will create. This staging area is the place where git knows what changes will be done from the last version to the next version.
+
+8. Repository Area : This area actually contains the details of all you previous registered version. And the files in this area, git already manages them and knows their version history.
+
+9. Commit is a particular version of the project. It captures a snapshot of the project's staged changes and creates a version out of it.
+
+10. git commit creates a git Id or Hash Number for every version
+
+11. git restore <file> : It is used to restore back to the previous committed version. Unless the changes are in Working Area, they can be restored back to Previous Committed Version. This can be useful, if we did some dirty piece of code and now no more want it. Instead of deleting every change line by line, we can restore it or you can say restore last clean version of the file.
+
+12. git restore --staged <file> -> To restore back to previous committed versions, if current changes are staged. It removes file from changes from staging area to the working area. This only works if changes are in your staging area.
+
+
+
