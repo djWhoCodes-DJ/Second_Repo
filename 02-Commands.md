@@ -5,7 +5,7 @@
 5. `git config --global user.email`                : TO Check Email
 6. `git config --list`                            : To check basic credentials
 
-7. git add .  ->  git commit -m "message" ->  git push -u origin master  : To upload files on github using git.
+7. "git add ."  ->  "git commit -m "message"" ->  git push -u origin master  : To upload files on github using git.
 
 8. cd "path/toOpen/Repository"
 9. mkdir "folderName"                  : To Create Folder
