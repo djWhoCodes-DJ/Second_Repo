@@ -22,4 +22,8 @@
 20. `git log`                            : List downs all the commits of the repository. If you want to exit out of git log prompt press q.
 21. `git restore "fileName"`             : It removes all files changes from the staging area to be committed. 
 22. `git restore --staged "fileName"`    : To restore back to previous committed versions, if current changes are staged. Brings that file back to Working Area.
-23. 
+23. `git remote add <name of remote> <link of the remote>` : To link GitHub Repo and Git Repo
+24. `git remote add origin git@github.com:djWhoCodes-DJ/Second_Repo.git`
+25. `git remote rm <name of remote>`     : This command deletes a remote connection
+26. `git remote rename <oldName> <newname>` : This command renames the remote connection
+27. `git pull <remote name> <branch name>` : Downloads latest changes from the branch of the mentioned remote in your local repo.

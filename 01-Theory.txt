@@ -19,5 +19,23 @@
 
 12. git restore --staged <file> -> To restore back to previous committed versions, if current changes are staged. It removes file from changes from staging area to the working area. This only works if changes are in your staging area.
 
+13. Diff between git rm and git restore ans: if you want to move the whole file back to the untracked state, then we do git rm, otherwise if we just want the changes to be moved in working area or staging area then we git restore.
+
+14. git diff commit-ID-1 commit-ID-2 -> gives the difference of all file changes between two commits
+
+15. git remote -> list down all the remote connection names
+
+16. Remote connection -> It helps you to link two git repositories for uploading and downloading changes from each otherwise
+
+17. git remote add <name of remote> <link of the remote> : this command helps us to add a new link to the remote repo and give a name to it
+
+18. Note: The name of the remote connection is always used to establish communication between the repos. Not neccessary to be "origin" can be any name.
+
+19. Recommended practice to do
+- make changes
+- git add <file>
+- git commit 
+- git pull
+- git push 
 
 
