@@ -1,9 +1,9 @@
-1. git --version                                 : Git's version
-2. git config --global user.name "Mona Lisa"     : To Add userName
-3. git config --global user.name                 : TO Check Name 
-4. git config --global user.email "YOUR_EMAIL"   : To Add userEmail
-5. git config --global user.email                : TO Check Email
-6. git config --list                             : To check basic credentials
+1. `git --version`                                 : Git's version
+2. `git config --global user.name "Mona Lisa"`     : To Add userName
+3. `git config --global user.name`                 : TO Check Name 
+4. `git config --global user.email "YOUR_EMAIL"`   : To Add userEmail
+5. `git config --global user.email`                : TO Check Email
+6. `git config --list`                            : To check basic credentials
 
 7. git add .  ->  git commit -m "message" ->  git push -u origin master  : To upload files on github using git.
 
